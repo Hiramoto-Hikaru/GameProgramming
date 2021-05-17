@@ -1,85 +1,56 @@
 ﻿  CBillBoard.cpp
-  CBullet.cpp
-  CCharacter.cpp
-  CCollider.cpp
-  CColliderLine.cpp
-  CColliderMesh.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CColliderMesh.cpp(21,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-  CColliderTriangle.cpp
-  CCollisionManager.cpp
-  CEffect.cpp
-  CEnemy.cpp
-  CEnemy2.cpp
   CMaterial.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(54,28): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(54,28): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(55,28): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(55,28): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(56,28): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(56,28): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(57,28): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(57,28): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(59,24): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(59,24): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(62,32): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(62,32): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(63,29): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(63,29): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(64,29): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(64,29): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(67,38): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(67,38): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(68,38): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(68,38): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(69,38): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(69,38): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(24,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(48,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  CModel.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(186,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(188,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(28,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(49,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(54,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(82,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(100,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(122,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(123,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(124,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(138,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(139,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(140,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(231,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(243,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModel.cpp(284,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(57,28): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(57,28): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(58,30): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(58,30): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(59,30): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(59,30): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(60,30): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(60,30): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(65,32): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(65,32): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(66,31): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(66,31): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(67,31): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(67,31): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(70,38): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(70,38): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(71,40): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(71,40): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(72,40): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(72,40): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(26,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(50,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   CModelX.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24,12): error C2061: 構文エラー: 識別子 'CModelX'
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(32,11): error C2535: 'CMaterial::CMaterial(void)': メンバー関数は、既に定義または宣言されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24): message : 'CMaterial::CMaterial' の宣言を確認してください
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(11,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(130,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(193,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(277,46): error C2664: 'CMaterial::CMaterial(const CMaterial &)': 引数 1 を 'CModelX *' から 'const CMaterial &' へ変換できません。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(277,46): message : 理由: 'CModelX *' から 'const CMaterial' へは変換できません。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(277,46): message : コンストラクターはソース型を持てません、またはコンストラクターのオーバーロードの解決があいまいです。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(39,1): message : 'CMaterial::CMaterial' の宣言を確認してください
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(320,36): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(320,36): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(321,46): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(321,46): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(322,40): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(322,40): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(343,41): error C3867: 'CMaterial::Enabled': 非標準の構文です。メンバーにポインタを作成するには '&' を使用してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24,12): error C2061: 構文エラー: 識別子 'CModelX'
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(32,11): error C2535: 'CMaterial::CMaterial(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24): message : 'CMaterial::CMaterial' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(11,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(130,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(193,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(277,46): error C2664: 'CMaterial::CMaterial(const CMaterial &)': 引数 1 を 'CModelX *' から 'const CMaterial &' へ変換できません。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(277,46): message : 理由: 'CModelX *' から 'const CMaterial' へは変換できません。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(277,46): message : コンストラクターはソース型を持てません、またはコンストラクターのオーバーロードの解決があいまいです。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(39,1): message : 'CMaterial::CMaterial' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(320,36): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(320,36): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(321,46): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(321,46): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(322,40): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(322,40): message : プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CModelX.cpp(343,41): error C3867: 'CMaterial::Enabled': 非標準の構文です。メンバーにポインタを作成するには '&' を使用してください
   CPlayer.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CPlayer.cpp(141,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CPlayer.cpp(147,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CPlayer.cpp(153,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CPlayer.cpp(141,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CPlayer.cpp(147,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CPlayer.cpp(153,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   CRes.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24,12): error C2061: 構文エラー: 識別子 'CModelX'
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(32,11): error C2535: 'CMaterial::CMaterial(void)': メンバー関数は、既に定義または宣言されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24): message : 'CMaterial::CMaterial' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24,12): error C2061: 構文エラー: 識別子 'CModelX'
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(32,11): error C2535: 'CMaterial::CMaterial(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24): message : 'CMaterial::CMaterial' の宣言を確認してください
   CSceneGame.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24,12): error C2061: 構文エラー: 識別子 'CModelX'
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(32,11): error C2535: 'CMaterial::CMaterial(void)': メンバー関数は、既に定義または宣言されています。
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24): message : 'CMaterial::CMaterial' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24,12): error C2061: 構文エラー: 識別子 'CModelX'
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(32,11): error C2535: 'CMaterial::CMaterial(void)': メンバー関数は、既に定義または宣言されています。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.h(24): message : 'CMaterial::CMaterial' の宣言を確認してください
+  main.cpp
   コードを生成中...

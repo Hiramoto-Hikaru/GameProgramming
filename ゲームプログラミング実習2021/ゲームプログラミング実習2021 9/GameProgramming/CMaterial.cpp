@@ -17,7 +17,9 @@ CMaterial::CMaterial()
 /*Materialデータの読み込みと設定
 */
 CMaterial::CMaterial(CModelX* model)
-	:mpTextureFilename(0) {
+	:mpTextureFilename(0)
+   ,mVertexNum(0)
+{
 	model->GetToken();//{//{?Name
 	if (strcmp(model->mToken, "{") != 0) {
 		//{でないときはマテリアル名
@@ -50,23 +52,7 @@ CMaterial::CMaterial(CModelX* model)
 		model->GetToken();//}
 	}
 #ifdef  _DEBUG
-	printf("Diffuse:\t");
-	printf("10f\t", mDiffuse[0]);
-	printf("10f\t", mDiffuse[1]);
-	printf("10f\t", mDiffuse[2]);
-	printf("10f\n", mDiffuse[3]);
-
-	printf("Power:10f\n", mPower);
-
-	printf("Specular:\t");
-    printf("10f\t", mSpecular[0]);
-	printf("10f\t", mSpecular[1]);
-	printf("10f\n", mSpecular[2]);
-
-	printf("Emissive\t");
-	printf("Emissive:10f\t", mEmissive[0]);
-	printf("Emissive:10f\t", mEmissive[1]);
-	printf("Emissive:10f\n", mEmissive[2]);
+	
 
 
 

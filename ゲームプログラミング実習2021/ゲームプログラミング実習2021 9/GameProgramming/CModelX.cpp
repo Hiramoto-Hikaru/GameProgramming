@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include"CModelX.h"
 #include<string.h>//文字列関数のインクルード
-
+#include"CMaterial.h"
 
 
 void CModelX::Load(char* file) {
@@ -321,7 +321,24 @@ void CMesh::Init(CModelX* model) {
         printf("10f\t", mpMaterialIndex[i + 1]);
 		printf("10f\n", mpMaterialIndex[i + 2]);
 	}
-		
+	printf("Diffuse:\t");
+
+	printf("10f\t", CMaterial;; mDiffuse[0]);
+	printf("10f\t", mDiffuse[1]);
+	printf("10f\t", mDiffuse[2]);
+	printf("10f\n", mDiffuse[3]);
+
+	printf("Power:10f\n", mPower);
+
+	printf("Specular:\t");
+	printf("10f\t", mSpecular[0]);
+	printf("10f\t", mSpecular[1]);
+	printf("10f\n", mSpecular[2]);
+
+	printf("Emissive\t");
+	printf("Emissive:10f\t", mEmissive[0]);
+	printf("Emissive:10f\t", mEmissive[1]);
+	printf("Emissive:10f\n", mEmissive[2]);
 	
 	
 	#endif
