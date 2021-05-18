@@ -1,8 +1,0 @@
-﻿  CModelX.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 3\GameProgramming\CModelX.cpp(11,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 3\GameProgramming\CModelX.cpp(136,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  CRes.cpp
-  CSceneGame.cpp
-  コードを生成中...
-LINK : warning LNK4098: defaultlib 'MSVCRT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
-  GameProgramming.vcxproj -> C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 3\Debug\GameProgramming.exe

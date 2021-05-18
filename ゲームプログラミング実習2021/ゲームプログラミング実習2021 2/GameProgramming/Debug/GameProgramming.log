@@ -1,3 +1,0 @@
-﻿  CModelX.cpp
-C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 2\GameProgramming\CModelX.cpp(9,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  GameProgramming.vcxproj -> C:\Users\hiram\OneDrive\デスクトップ\ゲームプログラミング実習2021\ゲームプログラミング実習2021 2\Debug\GameProgramming.exe
