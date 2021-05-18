@@ -52,7 +52,24 @@ CMaterial::CMaterial(CModelX* model)
 		model->GetToken();//}
 	}
 #ifdef  _DEBUG
-	
+	printf("Diffuse:\t");
+
+	printf("%10f\t", mDiffuse[0]);
+	printf("%10f\t", mDiffuse[1]);
+	printf("%10f\t", mDiffuse[2]);
+	printf("%10f\n", mDiffuse[3]);
+
+	printf("Power:%10f\n", CMaterial::mPower);
+
+	printf("Specular:\t");
+	printf("%10f\t", mSpecular[0]);
+	printf("%10f\t", mSpecular[1]);
+	printf("%10f\n", mSpecular[2]);
+
+	printf("Emissive:\t");
+	printf("%10f\t", mEmissive[0]);
+	printf("%10f\t", mEmissive[1]);
+	printf("%10f\n", mEmissive[2]);
 
 
 

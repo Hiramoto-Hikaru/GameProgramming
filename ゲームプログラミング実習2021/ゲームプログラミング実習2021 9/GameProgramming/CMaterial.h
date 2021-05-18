@@ -21,7 +21,7 @@ public:
 	float mEmissive[3];
 	//テクスチャファイル名
 	char* mpTextureFilename;
-	CMaterial(CModelX* model);
+	CMaterial(CModelX *model);
 	~CMaterial() {
 		if (mpTextureFilename) {
 			delete[]mpTextureFilename;

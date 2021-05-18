@@ -321,24 +321,7 @@ void CMesh::Init(CModelX* model) {
         printf("10f\t", mpMaterialIndex[i + 1]);
 		printf("10f\n", mpMaterialIndex[i + 2]);
 	}
-	printf("Diffuse:\t");
 
-	printf("10f\t", CMaterial;; mDiffuse[0]);
-	printf("10f\t", mDiffuse[1]);
-	printf("10f\t", mDiffuse[2]);
-	printf("10f\n", mDiffuse[3]);
-
-	printf("Power:10f\n", mPower);
-
-	printf("Specular:\t");
-	printf("10f\t", mSpecular[0]);
-	printf("10f\t", mSpecular[1]);
-	printf("10f\n", mSpecular[2]);
-
-	printf("Emissive\t");
-	printf("Emissive:10f\t", mEmissive[0]);
-	printf("Emissive:10f\t", mEmissive[1]);
-	printf("Emissive:10f\n", mEmissive[2]);
 	
 	
 	#endif
@@ -357,7 +340,7 @@ void CMesh::Render() {
 
 	for (int i = 0; i < mFaceNum; i++) {
 		//マテリアルを適用する
-		mMaterial[mpMaterialIndex[i]]->Enabled;
+		mMaterial[mpMaterialIndex[i]]->Enabled();
 		/*頂点のインデックスの場所を指定して図形を描画する*/
 		glDrawElements(GL_TRIANGLES, 3 * mFaceNum, GL_UNSIGNED_INT, mpVertexIndex+i*3);
 	}
