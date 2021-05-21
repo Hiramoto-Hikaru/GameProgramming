@@ -1,0 +1,4 @@
+﻿  CMaterial.cpp
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(26,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\GameProgramming\CMaterial.cpp(50,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  GameProgramming.vcxproj -> C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 9\Debug\GameProgramming.exe
