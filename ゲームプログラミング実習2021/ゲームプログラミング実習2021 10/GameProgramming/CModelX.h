@@ -50,7 +50,7 @@ public:
 		SAFE_DELETE_ARRAY(mpNormal);
 		SAFE_DELETE_ARRAY(mpMaterialIndex);
 		//スキンウェイトの削除
-		for (int i; i < mSkinWeights.size(); i++) {
+		for (int i=0; i < mSkinWeights.size(); i++) {
 			delete mSkinWeights[i];
 		}
 	}
