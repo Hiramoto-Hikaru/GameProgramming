@@ -12,6 +12,7 @@
 //先に宣言だけしてCModelXFlameの処理に当てはまらせる
 class CModelX;
 class CMaterial;
+class CSkinWeights;
 //CMeshクラスの定義
 class CMesh {
 public:
@@ -27,6 +28,8 @@ public:
 	int* mpVertexIndex;//面を構成する頂点番号
 	int mNormalNum;//法線数
 	CVector* mpNormal;//法線データ
+	//スキンウェイト
+	std::vector<CSkinWeights*>mSkinWeights;
 	//コンストラクタ
 	CMesh()
 
@@ -46,6 +49,10 @@ public:
 		SAFE_DELETE_ARRAY(mpVertexIndex);
 		SAFE_DELETE_ARRAY(mpNormal);
 		SAFE_DELETE_ARRAY(mpMaterialIndex);
+		//スキンウェイトの削除
+		for (int i; i < mSkinWeights.size(); i++) {
+			delete mSkinWeights[i];
+		}
 	}
 	//読み込み処理
 	void Init(CModelX* model);
@@ -102,5 +109,26 @@ public:
 	//ノードの読み飛ばし
 	void SkipNode();
 	void Render();
+};
+/*CSkinWeights
+スキンウェイトクラス
+*/
+class CSkinWeights {
+public:
+	char* mpFrameName;//フレーム名
+	int mFrameIndex;//フレーム番号
+	int mIndexNum;//頂点番号数
+	int* mpIndex;//頂点番号配列
+	float* mpWeight;//配点ウェイト配列
+	CMatrix mOffset;//オフセットマトリックス
+
+	CSkinWeights(CModelX* model);
+
+	~CSkinWeights() {
+		SAFE_DELETE_ARRAY(mpFrameName);
+		SAFE_DELETE_ARRAY(mpIndex);
+		SAFE_DELETE_ARRAY(mpWeight);
+	}
+
 };
 #endif 

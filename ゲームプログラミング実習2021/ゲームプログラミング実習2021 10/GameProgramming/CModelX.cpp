@@ -159,7 +159,8 @@ CModelXFrame::CModelXFrame(CModelX* model) {
 	}
 	//デバッグバージョンのみ有効
 	#ifdef _DEBUG
-		printf("%s\n", mpName);
+	
+	printf("%s\n", mpName);
      mTransformMatrix.Print();
     #endif
 }
@@ -280,6 +281,15 @@ void CMesh::Init(CModelX* model) {
 				model->GetToken();//}//End of MeshMaterialList
 			}
 		}
+		else if (strcmp(model->mToken, "SkinWeights") == 0){
+			//CSkinWeightsクラスのインスタンスを作成し配列に追加
+			mSkinWeights.push_back(new CSkinWeights(model));
+
+		}
+		else {
+			//以外のノードは読み飛ばし
+			model->SkipNode();
+		}
 	}
 
 #ifdef  _DEBUG
@@ -314,16 +324,7 @@ void CMesh::Init(CModelX* model) {
 		printf("%10f\t", mpNormal[i + 2].mY);
 		printf("%10f\n", mpNormal[i + 2].mZ);
 	}
-	printf("Material\n");
-	printf("Diffuse:\t");
-	for (int i = 0; i < mFaceNum; i++) {
-		printf("10f\t", mpMaterialIndex[i]);
-        printf("10f\t", mpMaterialIndex[i + 1]);
-		printf("10f\n", mpMaterialIndex[i + 2]);
-	}
 
-	
-	
 	#endif
 	
 }
@@ -350,4 +351,49 @@ void CMesh::Render() {
 	/*頂点のインデックスｎ場所を指定して図形を描画する
 	*/
 	
+}
+/*
+CSkinWeights
+スキンウェイトの読み込み
+*/
+CSkinWeights::CSkinWeights(CModelX* model) 
+	: mpFrameName(0)
+	,mFrameIndex(0)
+	,mIndexNum(0)
+    ,mpIndex(nullptr)
+    ,mpWeight(nullptr)
+{
+	model->GetToken();  //{
+	model->GetToken(); //FrameName
+	//フレーム名エリア確保、設定
+	mpFrameName = new char[strlen(model->mToken) + 1];
+	strcpy(mpFrameName, model->mToken);
+	//頂点番号数取得
+	mIndexNum = model->GetIntToken();
+	//頂点番号数が０を超える
+	if (mIndexNum > 0) {
+		//頂点番号と頂点ウェイトのエリア確保
+		mpIndex = new int[mIndexNum];
+		mpWeight = new float[mIndexNum];
+		//頂点番号取得
+		for (int i = 0; i < mIndexNum; i++)
+			mpIndex[i] = model->GetIntToken();
+		//頂点ウェイト取得
+		for (int i = 0; i < mIndexNum; i++)
+			mpWeight[i] = model->GetFloatToken();
+
+	}
+	//オフセット行列取得
+	for (int i = 0; i < 16; i++) {
+		mOffset.mF[i] = model->GetFloatToken();
+	}
+	model->GetToken();//}
+#ifndef _DEBUG
+
+
+	for (int i; i < mIndexNum; i++) {
+		printf("%10f\t", mpIndex[i]);
+		printf("10f\n", mpWeight[i]);
+	}
+#endif
 }
