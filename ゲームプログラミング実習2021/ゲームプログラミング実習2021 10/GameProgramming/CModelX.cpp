@@ -395,7 +395,11 @@ CSkinWeights::CSkinWeights(CModelX* model)
 		printf("%10d\t", mpIndex[i]);
 		printf("%10f\n", mpWeight[i]);
 	}
-		
-
+	for (int i = 0; i < 13; i+=4) {
+		printf("%10f\t", mOffset.mF[i]);
+		printf("%10f\t", mOffset.mF[i+1]);
+		printf("%10f\t", mOffset.mF[i+2]);
+		printf("%10f\n", mOffset.mF[i+3]);
+	}
    #endif
 }
