@@ -13,6 +13,7 @@
 class CModelX;
 class CMaterial;
 class CSkinWeights;
+class CAnimationSet;
 //CMeshクラスの定義
 class CMesh {
 public:
@@ -21,7 +22,8 @@ public:
 	int mMaterialIndexNum;//マテリアル番号数(面数)
 	int* mpMaterialIndex;//マテリアル番号
 	std::vector<CMaterial*>mMaterial;//マテリアルデータ
-
+	//アニメーションセットの配列
+	std::vector<CAnimationSet*>mAnimationSet;
 	int mVertexNum;
 	CVector* mpVertex;
 	int mFaceNum;//面数
@@ -52,6 +54,9 @@ public:
 		//スキンウェイトの削除
 		for (int i=0; i < mSkinWeights.size(); i++) {
 			delete mSkinWeights[i];
+		}
+		for (int i = 0; i < mAnimationSet.size(); i++) {
+			delete mAnimationSet[i];
 		}
 	}
 	//読み込み処理
@@ -94,13 +99,16 @@ public:
 	char* mpPointer;//読み込み位置
 	char mToken[1024];//取り出した単語の領域0～1023(1024個)
 	std::vector<CModelXFrame*>mFrame;//フレームの配列
-
+	std::vector<CAnimationSet*>mAnimationSet;
 	CModelX() 
 		:mpPointer(0)
 	{}
 	~CModelX() {
 		if (mFrame.size() > 0) {
 			delete mFrame[0];
+		}
+		for (int i = 0; i < mAnimationSet.size(); i++) {
+			delete mAnimationSet[i];
 		}
 	}
 	//ファイル読み込み
@@ -130,5 +138,19 @@ public:
 		SAFE_DELETE_ARRAY(mpWeight);
 	}
 
+};
+/*
+CAnimationSet
+アニメーションセット
+*/
+class CAnimationSet {
+public:
+	//アニメーションセット名
+	char* mpName;
+	CAnimationSet(CModelX* model);
+	~CAnimationSet() {
+		SAFE_DELETE_ARRAY(mpName);
+
+	}
 };
 #endif 
