@@ -37,16 +37,13 @@ void CModelX::Load(char* file) {
 			new CModelXFrame(this);
 		}
 		//単語がAnimetionSetの場合
-		else if (strcmp(mToken, "AnimationSet;") == 0) {
+		else if (strcmp(mToken, "AnimationSet") == 0) {
 			new CAnimationSet(this);
 			
+       
+		
 		}
-		//単語がAnimationSetの場合
-		if (strcmp(mToken, "AnimationSet") == 0) {
-			printf("%s:", mToken);//Frame出力
-			GetToken();//Frame名を取得
-			printf("%s:\n", mToken);//Frame名を出力
-		}
+     
 	}                    
 
     fclose(fp);//ファイルのクローズ
@@ -433,4 +430,9 @@ CAnimationSet::CAnimationSet(CModelX* model)
 			
 		}
 	}
+#ifdef _DEBUG
+	printf("AnimationSet:%s\n", mpName);//Frame出力
+	   //GetToken();//Frame名を取得
+	   //printf("%s:\n", mToken);//Frame名を出力
+#endif
 }
