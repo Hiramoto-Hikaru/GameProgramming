@@ -14,6 +14,7 @@ class CModelX;
 class CMaterial;
 class CSkinWeights;
 class CAnimationSet;
+class CAnimation;
 //CMeshクラスの定義
 class CMesh {
 public:
@@ -97,6 +98,8 @@ public:
 	char mToken[1024];//取り出した単語の領域0～1023(1024個)
 	std::vector<CModelXFrame*>mFrame;//フレームの配列
 	std::vector<CAnimationSet*>mAnimationSet;
+	//フレーム名に該当するフレームのアドレスを返す
+	CModelXFrame* FindFrame(char* name);
 	CModelX() 
 		
 		:mpPointer(0)
@@ -145,10 +148,32 @@ class CAnimationSet {
 public:
 	//アニメーションセット名
 	char* mpName;
+	//アニメーション
+	std::vector<CAnimation*>mAnimation;
 	CAnimationSet(CModelX* model);
 	~CAnimationSet() {
 		SAFE_DELETE_ARRAY(mpName);
+		//アニメーション要素の削除
+		for (int i = 0; i < mAnimation.size(); i ++ ) {
+			delete mAnimation[i];
+		}
+	}
+};
+
+/*
+CAnimation
+アニメーションクラス
+*/
+class CAnimation {
+public:
+	char* mpFrameName;//フレーム名
+	int mFrameIndex;//フレーム番号
+
+	CAnimation(CModelX* model);
+	~CAnimation() {
+		SAFE_DELETE_ARRAY(mpFrameName);
 
 	}
+
 };
 #endif 

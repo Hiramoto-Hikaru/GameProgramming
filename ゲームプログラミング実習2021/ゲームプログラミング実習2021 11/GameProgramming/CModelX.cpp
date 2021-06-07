@@ -178,6 +178,24 @@ void CModelXFrame::Render() {
 		mMesh.Render();
 	}
 }
+
+/*FineFame
+フレーム名の該当するフレームのアドレスを返す
+*/
+CModelXFrame* CModelX::FindFrame(char* name) {
+	//イテレータの作成
+	std::vector<CModelXFrame*>::iterator itr;
+	//先頭から最後目で繰り返す
+	for (itr = mFrame.begin(); itr!= mFrame.end(); itr++) {
+		//名前が一致したかどうか
+		if (strcmp(name, (*itr)->mpName) == 0) {
+			//一致したらそのアドレスを返す
+			return *itr;
+		}
+		//一致するフレームがない場合はNULLを返す
+		return NULL;
+	}
+}
 /*GetfloatToken
 単語を浮動小数点型のデータで返す
 */
@@ -424,8 +442,8 @@ CAnimationSet::CAnimationSet(CModelX* model)
 		model->GetToken();//}orAnimetion
 		if (strchr(model->mToken, '}'))break;
 		if (strcmp(model->mToken, "Animation") == 0) {
-			//とりあえず読み飛ばし
-			model->SkipNode();
+			//Animation要素読み込み
+			mAnimation.push_back(new CAnimation(model));
 			
 			
 		}
@@ -435,4 +453,30 @@ CAnimationSet::CAnimationSet(CModelX* model)
 	   //GetToken();//Frame名を取得
 	   //printf("%s:\n", mToken);//Frame名を出力
 #endif
+}
+CAnimation::CAnimation(CModelX* model)
+	:mpFrameName(0)
+	, mFrameIndex(0)
+{
+	model->GetToken();//{or Animation Name
+	if (strchr(model->mToken, '{')) {
+		model->GetToken();//{
+	}
+	else {
+		model->GetToken();//{
+		model->GetToken();//{
+	}
+	model->GetToken();//FrameName
+	mpFrameName = new char[strlen(model->mToken) + 1];
+	strcpy(mpFrameName, model->mToken);
+	mFrameIndex = model->FindFrame(model->mToken)->mIndex;
+	model->GetToken();//}
+	while (*model->mpPointer != '\0') {
+		model->GetToken();//}or AnimetionKey
+		if (strchr(model->mToken, '}'))break;
+		if (strcmp(model->mToken, "AnimationKey") == 0) {
+			
+			model->SkipNode();
+		}
+	}
 }
