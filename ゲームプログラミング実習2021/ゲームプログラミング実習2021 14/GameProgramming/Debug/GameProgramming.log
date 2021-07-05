@@ -1,0 +1,23 @@
+﻿  CModelX.cpp
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(56,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(57,1): warning C4150: 'CSkinWeights' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(15): message : 'CSkinWeights' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(112,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(113,1): warning C4150: 'CAnimationSet' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(16): message : 'CAnimationSet' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(162,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(163,1): warning C4150: 'CAnimation' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(17): message : 'CAnimation' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(181,1): warning C4150: 'CAnimationKey' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.h(18): message : 'CAnimationKey' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(11,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(128,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(211,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(221,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(226,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(235,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(240,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(452,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(501,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\GameProgramming\CModelX.cpp(535,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  GameProgramming.vcxproj -> C:\Users\hiram\OneDrive\デスクトップ\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 14\Debug\GameProgramming.exe
