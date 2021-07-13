@@ -190,6 +190,24 @@ CModelXFrame* CModelX::FindFrame(char* name) {
 	//一致するフレームがない場合はNULLを返す
 		return NULL;
 }
+/*AnimateCombined
+合成行列の作成*/
+void CModelXFrame::AnimateCombined(CMatrix* parent) {
+	//自分の返還行列に、親からの返還行列をかける
+	mCombinedMatrix = mTransformMatrix * (*parent);
+	//子フレームの合成行列を作成する
+	for (int i = 0; i < mChild.size(); i++) {
+		mChild[i]->AnimateCombined(&mCombinedMatrix);
+
+	}
+#ifdef _DEBUG
+	
+		printf("Frame:%s\n", mpName);
+		mCombinedMatrix.Print();
+	
+	                      
+#endif
+}
 /*GetfloatToken
 単語を浮動小数点型のデータで返す
 */
@@ -265,7 +283,7 @@ void CModelX::AnimateFrame() {
 						frame->mTransformMatrix +=
 							(animation->mpKey[k - 1].mMatrix * r + animation->mpKey[k].mMatrix * (1 - r)) * anim->mWeight;
 						break;
-					}
+					}\
 				}
 			}
          #ifdef _DEBUG
@@ -491,7 +509,7 @@ CAnimationSet
 */
 CAnimationSet::CAnimationSet(CModelX* model)
 	:mpName(nullptr)
-	,mTime(45)
+	,mTime(0)
 	,mWeight(0)
 	,mMaxTime(0)
 {

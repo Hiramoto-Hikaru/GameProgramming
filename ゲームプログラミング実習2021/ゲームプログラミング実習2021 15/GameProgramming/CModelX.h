@@ -71,6 +71,9 @@ public:
 	CMatrix mTransformMatrix;//変換行列
 	char* mpName;//フレーム名前
 	int mIndex;//フレーム番号
+	CMatrix mCombinedMatrix;//合成行列
+	//合成行列の作成
+	void AnimateCombined(CMatrix* parent);
 	//コンストラクタ
 	CModelXFrame(CModelX* model);
 	//デストラクタ
