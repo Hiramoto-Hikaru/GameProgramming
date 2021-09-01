@@ -34,12 +34,14 @@ void CXPlayer::Update() {
        if (mAnimationFrame >= 29) {
 	        ChangeAnimation(4, false, 30);
 	   }
+
 	}
-	
-       if (mAnimationFrame >= mAnimationFrameSize) {
-	
-         ChangeAnimation(0, true, 60);
-	   }
+	else if (mAnimationIndex == 4) {
+		if (mAnimationFrame >= mAnimationFrameSize) {
+			ChangeAnimation(0, true, 60);
+		}
+	}
+    
 	
     
 		
