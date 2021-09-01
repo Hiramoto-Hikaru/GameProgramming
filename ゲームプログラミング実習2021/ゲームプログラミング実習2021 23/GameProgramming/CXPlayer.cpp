@@ -14,14 +14,21 @@ void CXPlayer::Update() {
 		mPosition =mPosition+ CVector(0.0f,0.0f,0.1f)*mMatrixRotate;
 		
 	}
-	else if (CKey::Push('A')) {
+	else if (mAnimationIndex == 1){
+		ChangeAnimation(0, true, 60);
+	}
+	  
+	 if (CKey::Push('A')) {
 		mRotation.mY += 2.0f;
 	}
-	else if (CKey::Push('D')) {
+     if (CKey::Push('D')) {
 		mRotation.mY -= 2.0f;
 	}
-	else if (CKey::Once(VK_SPACE)) {
-			ChangeAnimation(3, false, 30);
+	 if (CKey::Once(VK_SPACE)) {
+		 if (mAnimationIndex == 0) {
+         ChangeAnimation(3, false, 30);
+		 }
+			
 	}
 	if (mAnimationIndex == 3) {
        if (mAnimationFrame >= 29) {
@@ -29,10 +36,15 @@ void CXPlayer::Update() {
 	   }
 	}
 	
-	if (mAnimationFrame >= mAnimationFrameSize) {
-      ChangeAnimation(0, true, 60);
-	}
+       if (mAnimationFrame >= mAnimationFrameSize) {
+	
+         ChangeAnimation(0, true, 60);
+	   }
+	
+    
 		
+	
+	
 	
 	
 	
