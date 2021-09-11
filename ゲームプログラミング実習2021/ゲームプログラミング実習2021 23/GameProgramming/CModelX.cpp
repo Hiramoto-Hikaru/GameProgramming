@@ -193,6 +193,16 @@ CModelXFrame::CModelXFrame(CModelX* model) {
 	 
     #endif
 }
+void CModelX::AnimateVertex(CMatrix* mat) {
+	//フレーム数分繰り返し
+	for (int i = 0; i < mFrame.size(); i++) {
+		//メッシュに面があれば
+		if (mFrame[i]->mMesh.mFaceNum > 0) {
+			//頂点をアニメーションで更新する
+			mFrame[i]->mMesh.AnimateVertex(mat);
+		}
+	}
+}
 /*
 Render
 メッシュの面数が０以外なら描画する
@@ -478,39 +488,38 @@ void CMesh::Init(CModelX* model)
 	}
 #ifdef  _DEBUG
 
-	//int型の変数の出力は％ｄ
-	/*printf("VertexNum:%d\n", mVertexNum);
-	for (int i = 0; i < mVertexNum; i++) {
-		//10f=１０桁のfloat型
-		printf("%10f", mpVertex[i].mX);
-		printf("%10f", mpVertex[i].mY);
-		printf("%10f\n", mpVertex[i].mZ);
-	}
-
-	printf("FaceNum:%d\n", mFaceNum);
-	for (int i = 0; i < mFaceNum * 3; i += 3) {
-
-		printf("%d\t", mpVertexIndex[i]);
-		printf("%d\t", mpVertexIndex[i + 1]);
-		printf("%d\n", mpVertexIndex[i + 2]);
-
-	}
-	//法線データを頂点の数だけ出力
-	printf("NormalNum:%d\n", mNormalNum);
-	for (int i = 0; i < mNormalNum; i += 3) {
-		printf("%10f\t", mpNormal[i].mX);
-		printf("%10f\t", mpNormal[i].mY);
-		printf("%10f\n", mpNormal[i].mZ);
-		printf("%10f\t", mpNormal[i + 1].mX);
-		printf("%10f\t", mpNormal[i + 1].mY);
-		printf("%10f\n", mpNormal[i + 1].mZ);
-		printf("%10f\t", mpNormal[i + 2].mX);
-		printf("%10f\t", mpNormal[i + 2].mY);
-		printf("%10f\n", mpNormal[i + 2].mZ);
-	}
-	*/
 	#endif
 	
+}
+
+void CMesh::AnimateVertex(CMatrix* mat) {
+	//アニメーション用の頂点エリアクリア
+	memset(mpAnimateVertex, 0, sizeof(CVector) * mVertexNum);
+	memset(mpAnimateNormal, 0, sizeof(CVector) * mNormalNum);
+
+	//スキンウェイト分繰り返し
+	for (int i = 0; i < mSkinWeights.size(); i++) {
+		//フレーム番号取得
+		int frameIndex = mSkinWeights[i]->mFrameIndex;
+		//フレーム合成行列にオフセット行列を合成
+		CMatrix mSkinningMatrix = mSkinWeights[i]->mOffset * mat[frameIndex];
+		//頂点数分繰り返し
+		for (int j = 0;j < mSkinWeights[i]->mIndexNum; j++) {
+			//頂点番号取得
+			int index = mSkinWeights[i]->mpIndex[j];
+
+			//重み取得
+			float weight = mSkinWeights[i]->mpWeight[j];
+			//頂点と法線を更新する
+			mpAnimateVertex[index] += mpVertex[index] * mSkinningMatrix * weight;
+			mpAnimateNormal[index] += mpNormal[index] * mSkinningMatrix * weight;
+		}
+		
+	}
+	//法線を正規化する
+	for (int i = 0; i < mNormalNum; i++) {
+		mpAnimateNormal[i] = mpAnimateNormal[i].Normalize();
+	}
 }
 /*
 Render

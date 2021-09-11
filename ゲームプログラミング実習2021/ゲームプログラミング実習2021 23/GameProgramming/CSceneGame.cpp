@@ -8,9 +8,13 @@
 #include"CMaterial.h"
 #include"CXCharacter.h"
 #include"CXPlayer.h"
+#include"CXEnemy.h"
+
 //キャラクタのインスタンス
 CXPlayer mPlayer;
 CMatrix Matrix;
+//敵のインスタンス
+CXEnemy mEnemy;
 CSceneGame::~CSceneGame() {
 
 }
@@ -23,6 +27,10 @@ void CSceneGame::Init() {
 	CRes::sModelX.Load(MODEL_FILE);
 	//キャラクターにモデルを設定
 	mPlayer.Init(&CRes::sModelX);
+	//敵にモデルを設定
+	mEnemy.Init(&CRes::sModelX);
+	//敵の配置
+	mEnemy.mPosition = CVector(7.0f, 0.0f, 0.0f);
 	CMatrix matrix;
 	matrix.Print();
 	i = 0;
@@ -37,6 +45,9 @@ void CSceneGame::Update() {
 	}*/
 	//キャラクタークラスの更新
 	mPlayer.Update();
+	//敵の更新
+	mEnemy.Update();
+	mEnemy.Render();
 
 	//最初のアニメーションの現在時間を４５にする
 

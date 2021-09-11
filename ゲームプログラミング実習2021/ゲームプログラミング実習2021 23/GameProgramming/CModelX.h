@@ -67,6 +67,7 @@ public:
 		}
 		
 	}
+	void AnimateVertex(CMatrix*);
 	//読み込み処理
 	void Init(CModelX* model);
 	//頂点にアニメーション適用
@@ -136,6 +137,7 @@ public:
 			delete mMaterial[i];
 		}
 	}
+	void AnimateVertex(CMatrix*);
 	//ファイル読み込み
 	void Load(char* file);
 	void GetToken();

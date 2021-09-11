@@ -1,16 +1,48 @@
-﻿  CXPlayer.cpp
+﻿  CSceneGame.cpp
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(65,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(66,1): warning C4150: 'CSkinWeights' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(15): message : 'CSkinWeights' の宣言を確認してください
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(131,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(132,1): warning C4150: 'CAnimationSet' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(132,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(133,1): warning C4150: 'CAnimationSet' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(16): message : 'CAnimationSet' の宣言を確認してください
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(135,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(136,1): warning C4150: 'CMaterial' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(136,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(137,1): warning C4150: 'CMaterial' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(14): message : 'CMaterial' の宣言を確認してください
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(189,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(190,1): warning C4150: 'CAnimation' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(191,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(192,1): warning C4150: 'CAnimation' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(17): message : 'CAnimation' の宣言を確認してください
-C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(208,1): warning C4150: 'CAnimationKey' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(210,1): warning C4150: 'CAnimationKey' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
 C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(18): message : 'CAnimationKey' の宣言を確認してください
+  CXCharacter.cpp
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(65,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(66,1): warning C4150: 'CSkinWeights' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(15): message : 'CSkinWeights' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(132,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(133,1): warning C4150: 'CAnimationSet' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(16): message : 'CAnimationSet' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(136,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(137,1): warning C4150: 'CMaterial' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(14): message : 'CMaterial' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(191,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(192,1): warning C4150: 'CAnimation' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(17): message : 'CAnimation' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(210,1): warning C4150: 'CAnimationKey' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(18): message : 'CAnimationKey' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CXCharacter.cpp(82,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  CXPlayer.cpp
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(65,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(66,1): warning C4150: 'CSkinWeights' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(15): message : 'CSkinWeights' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(132,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(133,1): warning C4150: 'CAnimationSet' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(16): message : 'CAnimationSet' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(136,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(137,1): warning C4150: 'CMaterial' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(14): message : 'CMaterial' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(191,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(192,1): warning C4150: 'CAnimation' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(17): message : 'CAnimation' の宣言を確認してください
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(210,1): warning C4150: 'CAnimationKey' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\GameProgramming\CModelX.h(18): message : 'CAnimationKey' の宣言を確認してください
+  コードを生成中...
   GameProgramming.vcxproj -> C:\Users\hiram\OneDrive\デスクトップ\ゲーム制作２\Git\GameProgramming\ゲームプログラミング実習2021\ゲームプログラミング実習2021 23\Debug\GameProgramming.exe
