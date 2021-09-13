@@ -47,7 +47,7 @@ void CSceneGame::Update() {
 	mPlayer.Update();
 	//敵の更新
 	mEnemy.Update();
-	mEnemy.Render();
+	
 
 	//最初のアニメーションの現在時間を４５にする
 
@@ -101,6 +101,7 @@ void CSceneGame::Update() {
 	//モデル描画
 	//CRes::sModelX.Render();
 	mPlayer.Render();
+	mEnemy.Render();
 	//2D描画開始
 	CUtil::Start2D(0, 800, 0, 600);
 

@@ -54,6 +54,9 @@ matrix:移動、回転、拡大縮小の行列
 */
 void CXCharacter::Update(CMatrix& matrix) {
 	
+
+
+
 	//最後まで再生していない
 	if (mAnimationFrame < mAnimationFrameSize) {
 		//アニメーションの時間を計算
@@ -88,6 +91,8 @@ void CXCharacter::Update(CMatrix& matrix) {
 }
 //更新処理
 void CXCharacter::Update() {
+	mpModel->mAnimationSet[mAnimationIndex]->mWeight = 0.0f;
+
 	//変換行列の更新
 	CTransform::Update();
 	//アニメーションを更新する
