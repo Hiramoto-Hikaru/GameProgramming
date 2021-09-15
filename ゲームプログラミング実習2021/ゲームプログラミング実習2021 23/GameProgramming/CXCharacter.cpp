@@ -1,5 +1,5 @@
 #include"CXCharacter.h"
-
+#include"CKey.h"
 /*Init
 初期化処理
 */
@@ -92,7 +92,13 @@ void CXCharacter::Update(CMatrix& matrix) {
 //更新処理
 void CXCharacter::Update() {
 	mpModel->mAnimationSet[mAnimationIndex]->mWeight = 0.0f;
-
+	mpModel->mAnimationSet[0]->mWeight = 1.0f;
+	if (CKey::Push('W')) {
+		
+           mpModel->mAnimationSet[1]->mWeight = 1.0f;
+	}
+	
+	//mpModel->mAnimationSet[2]->mWeight = 1.0f;
 	//変換行列の更新
 	CTransform::Update();
 	//アニメーションを更新する
